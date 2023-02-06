@@ -1,5 +1,5 @@
 import sys
-from collections import deque, Counter
+from collections import deque
 from itertools import combinations
 import copy
 n, m = map(int,sys.stdin.readline().split())
@@ -45,7 +45,7 @@ for a,b,c in random:
     bx = int(b//m); by = int(b%m)
     cx = int(c//m); cy = int(c%m)
     # print(ax,ay, bx, by, cx, cy)
-    if (copy_graph[ax][ay]==0) | (copy_graph[bx][by]==0) | (copy_graph[cx][cy]==0):
+    if (copy_graph[ax][ay]==0) & (copy_graph[bx][by]==0) & (copy_graph[cx][cy]==0):
         copy_graph[ax][ay] = 1
         copy_graph[bx][by] = 1
         copy_graph[cx][cy] = 1
