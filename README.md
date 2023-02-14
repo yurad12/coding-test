@@ -12,5 +12,5 @@
 - **PART 4.** [부록](https://github.com/yurad12/coding_test/tree/master/BOOK/algorithm): 문법, 기타 알고리즘
   
   
-### Boj
+### BOJ
 
