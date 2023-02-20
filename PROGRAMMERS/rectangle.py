@@ -1,4 +1,4 @@
-# ## 직사각형 만들기
+# # 직사각형 만들기
 # # [[1,3],[4,3],[4,10]] -> print(직사각형만드는 좌표)
 # from collections import Counter
 
