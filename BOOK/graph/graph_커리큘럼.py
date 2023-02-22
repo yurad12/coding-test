@@ -20,6 +20,10 @@ def topology_sort():
     for i in range(1,n+1):
         if indegree[i] == 0:
             q.append(i)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 425949da4c9334f18dc9a3ed566a83e8d5ee8382
     while q:
         now = q.popleft()
         for i in graph[now]:

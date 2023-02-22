@@ -33,8 +33,15 @@ for i in range(e):
 	# 사이클이 발생하지 않았다면 합집합 수행
 	else:
 		union_parent(parent,a,b)
+<<<<<<< HEAD
 
 if cycle:
 	print("사이클이 발생했습니다.")
 else:
 	print("사이클이 발생하지 않았습니다.")
+=======
+if cycle:
+    print("사이클이 발생했습니다.")
+else:
+    print("사이클이 발생하지 않았습니다.")
+>>>>>>> 425949da4c9334f18dc9a3ed566a83e8d5ee8382

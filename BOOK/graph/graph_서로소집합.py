@@ -10,6 +10,10 @@ for i in range(1,v+1):
 def find_parent(parent,x):
 	# 루트 노드가 아니라면, 루트 노드를 찾을 때까지 재귀적으로 호출
 	if parent[x] != x:
+<<<<<<< HEAD
+=======
+		print(parent[x],x)
+>>>>>>> 425949da4c9334f18dc9a3ed566a83e8d5ee8382
 		parent[x] = find_parent(parent,parent[x])
 	return parent[x]
 
