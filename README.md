@@ -1,6 +1,8 @@
 # 코딩 테스트 준비
 ###### 참고 서적: 이것이 코딩 테스트다 with 파이썬, 나동빈 저
 
+### Algorithm Note
+
 ### Book
 - **Chapter 3, 11.** [그리디](https://github.com/yurad12/coding_test/tree/master/BOOK/greedy)
 - **Chapter 4, 12.** [구현](https://github.com/yurad12/coding_test/tree/master/BOOK/implementation)
