@@ -1,32 +1,30 @@
-import sys
-input = sys.stdin.readline
+from collections import deque
+import copy
 
-g = int(input())
-p = int(input())
-gi = [int(input()) for _ in range(p)]
-parent = [0]*(g+1)
-for i in range(1,g+1):
-    parent[i] = i
+n = int(input())
+time = [0] * (n+1)
+graph = [[] for _ in range(n+1)]
+indegree = [0] * (n+1)
+for i in range(1,n+1):
+    temp = list(map(int,input().split()))
+    time[i] = temp[0]
+    for j in temp[1:-1]:
+        graph[j].append(i) #i를 수강하려면 j를 수강해야함
+        indegree[i] += 1
 
-def find_parent(parent,x):
-    if parent[x] != x:
-        parent[x] = find_parent(parent,parent[x])
-    return parent[x]
+result = copy.deepcopy(time)
+q = deque()
+for i in range(1,n+1):
+    if indegree[i] == 0:
+        q.append(i)
 
-def union_parent(parent,a,b):
-    a = find_parent(parent,a)
-    b = find_parent(parent,b)
-    if a < b:
-        parent[b] = a
-    else:
-        parent[a] = b
+while q:
+    node = q.popleft()
+    for i in graph[node]:
+        result[i] = max(result[i],result[node]+time[i])
+        indegree[i] -= 1
+        if indegree[i] == 0:
+            q.append(i)
 
-result = 0
-for i in range(p):
-    temp = find_parent(parent,gi[i])
-    if temp == 0:
-        break
-    union_parent(parent,temp,temp-1)
-    result += 1
-
-print(result)
+for t in range(1,n+1):
+    print(result[t])
