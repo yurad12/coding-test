@@ -15,7 +15,6 @@ def solution(n):
     return answer
 
 
-
 ### solution2: 등차수열 합 이용
 def solution(n):
     answer = len([i  for i in range(1,num+1,2) if num % i is 0])
