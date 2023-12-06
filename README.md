@@ -16,6 +16,7 @@
   
   
 ### BOJ
+- **[Silver](https://github.com/yurad12/coding-test/tree/master/BOJ/Silver)**
 
 ### Programmers
 - **[Level 2](https://github.com/yurad12/coding_test/tree/master/BOOK/dynamic_programming)**
