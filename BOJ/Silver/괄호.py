@@ -12,6 +12,7 @@ for _ in range(t):
 def check_vps(string):
     # (로 시작해서 )로 끝나는지 확인
     # (개수와 )개수가 같아야 함
+    
     count = 0
     for i in range(len(string)):
         if string[i] == "(":
