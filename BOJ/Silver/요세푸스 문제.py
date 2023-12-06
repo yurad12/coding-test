@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/1158
 '''
 1234567
 1: 3 124567
@@ -11,6 +12,7 @@
 
 import sys
 input = sys.stdin.readline
+
 from collections import deque
 
 n, k = map(int, input().split())
