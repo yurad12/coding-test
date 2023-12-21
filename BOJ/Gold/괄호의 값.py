@@ -11,10 +11,6 @@ temp = 1
 
 for i in range(len(bracket)):
     now = bracket[i]
-    # print("stack: ", stack)
-    # print("now: ", now)
-    # print("temp: ", temp, "result: ", result)
-    # print("----------------------")
 
     if now == '(':
         temp *= 2
