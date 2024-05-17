@@ -6,7 +6,7 @@ from collections import deque
 
 n, k = map(int, input().split())
 
-visited = [0] * (200001)
+visited = [0] * (100001)
 visited[n] = 1
 q = deque([(0,n)])
 answer = 100001
