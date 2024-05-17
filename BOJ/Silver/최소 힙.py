@@ -11,8 +11,8 @@ while n > 0:
     n -= 1
     x = int(input())
     if not x and q:
-        print("res:",heappop(q))
+        print(heappop(q))
     elif not x and not q:
-        print("res:",0)
+        print(0)
     else:
         heappush(q,x)
