@@ -5,8 +5,6 @@ import sys
 input = sys.stdin.readline
 
 def solution(n, m, characters):
-    result = []
-
     for power in characters:
         start, end = 0, n-1
         result = 0
