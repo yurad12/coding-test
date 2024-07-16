@@ -24,3 +24,16 @@
 - **[Level2](https://github.com/yurad12/coding_test/tree/master/BOOK/dynamic_programming)**
 - **[Level3](https://github.com/yurad12/coding-test/tree/master/PROGRAMMERS/Level3)**
 - **[Level4](https://github.com/yurad12/coding-test/tree/master/PROGRAMMERS/Level4)**
+
+
+### Codility
+- **[Lesson 4](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%204)**: Counting Elements
+- **[Lesson 5](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%205)**: Prefix Sums
+- **[Lesson 6](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%206)**: Sorting
+- **[Lesson 7](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%207)**: Stacks and Queues
+- **[Lesson 8](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%208)**: Leader
+- **[Lesson 9](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%209)**: Maximum slice problem
+- **[Lesson 10](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%2010)**: Prime and composite numbers
+- **[Lesson 11](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%2011)**: Sieve of Eratosthenes
+- **[Lesson 12](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%2012)**: Fibonacci numbers
+- **[Lesson 13](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%2013)**: Binary search algorithm
