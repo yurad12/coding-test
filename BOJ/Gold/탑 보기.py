@@ -26,10 +26,9 @@ for i in range(N):
         elif dist == result[i+1][1] and stack[-1][0] < result[i+1][0]:
             result[i+1][0] = stack[-1][0]
 
-    stack.append((i+1, heights[i]))    
+    stack.append((i+1, heights[i]))
 
-
-# 오른쪽
+# 현재 빌딩을 기준으로 오른쪽에 볼 수 있는 건물
 stack = []
 for i in range(N-1,-1,-1):
     while stack and stack[-1][1] <= heights[i]:
