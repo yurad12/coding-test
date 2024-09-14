@@ -1,4 +1,4 @@
-#https://school.programmers.co.kr/learn/courses/30/lessons/17687?language=python3#
+# https://school.programmers.co.kr/learn/courses/30/lessons/17687?language=python3#
 
 def solution(n, t, m, p):
     
