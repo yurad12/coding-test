@@ -1,7 +1,13 @@
 # 코딩 테스트 준비
-###### 참고 서적: 이것이 코딩 테스트다 with 파이썬, 나동빈 저
+###### 참고 서적
+###### - "이것이 코딩 테스트다 with 파이썬", 나동빈
+###### - "Do it! 알고리즘 코딩 테스트 자바 편", 김종관
 
+## Python
 ### Algorithm Note
+- [벨만포드](https://github.com/yurad12/coding-test/blob/master/Python/Algorithm%20Note/bellman_ford.py)
+- [에라토스테네스의 체](https://github.com/yurad12/coding-test/blob/master/Python/Algorithm%20Note/is_prime_number2.py)
+- [세그먼트 트리](https://github.com/yurad12/coding-test/blob/master/Python/Algorithm%20Note/segment_tree.py)
 
 ### Book
 - **Chapter 3, 11.** [그리디](https://github.com/yurad12/coding_test/tree/master/BOOK/greedy)
@@ -37,3 +43,6 @@
 - **[Lesson 11](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%2011)**: Sieve of Eratosthenes
 - **[Lesson 12](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%2012)**: Fibonacci numbers
 - **[Lesson 13](https://github.com/yurad12/coding-test/tree/master/Codility/Lesson%2013)**: Binary search algorithm
+
+
+## Java
