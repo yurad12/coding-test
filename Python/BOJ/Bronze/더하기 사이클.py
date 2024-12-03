@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/1110
 num = int(input())
 num_list = [num]
 #cnt = 0

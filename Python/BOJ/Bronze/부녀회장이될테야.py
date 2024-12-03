@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/2775
 case = int(input())
 people_list = {}
 #1:14
