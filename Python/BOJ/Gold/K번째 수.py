@@ -5,7 +5,7 @@ input = sys.stdin.readline
 N = int(input())
 k = int(input())
 
-start, end = 1, k #N ** 2
+start, end = 1, k # N ** 2
 answer = 0
 
 while start <= end:
